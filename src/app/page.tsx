@@ -90,6 +90,7 @@ export default function Home() {
                       enthusiasts in a casual atmosphere.
                     </p>
                     <a
+                      target="_blank"
                       href="https://lu.ma/c547nme0"
                       className="inline-block bg-[#FF2670] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#FF2670]/90 transition-colors shadow-md"
                     >

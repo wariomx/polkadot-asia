@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Polkadot Asia",
-  description: "Polkadot Community around Asia",
+  description: "Polkadot Meetups around Asia",
 };
 
 export default function RootLayout({
