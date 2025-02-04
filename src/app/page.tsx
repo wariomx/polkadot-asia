@@ -7,10 +7,12 @@ export default function Home() {
       <header className="bg-white py-4 px-6 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <div className="w-40 md:w-48">
-            <img
+            <Image
               src="/Polkadot_Logo_Pink-Black.svg"
               alt="Polkadot Logo"
               className="w-full h-auto"
+              width={200}
+              height={100}
             />
           </div>
         </div>
@@ -20,20 +22,16 @@ export default function Home() {
         {/* ... contenido principal previo ... */}
         <div className="container mx-auto px-6 py-12">
           <section className="max-w-4xl mx-auto">
-            {/* <h1 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Polkadot Asia Community
-            </h1> */}
-
             <div className="space-y-8">
               {/* Building Web3 section */}
               <div className="bg-white rounded-lg p-6 shadow-lg">
                 <h2 className="text-2xl font-semibold text-[#FF2670] mb-4">
-                  Building Web3 in Asia
+                  Connecting the dots around Asia
                 </h2>
                 <p className="text-black mb-4">
-                  Join the growing Polkadot ecosystem in Asia. We're fostering
-                  innovation, collaboration, and growth across the region
-                  through community-driven initiatives and events.
+                  We&apos;re fostering decentralization, collaboration,
+                  education and growth across the region through
+                  community-driven meetups and events.
                 </p>
               </div>
 
@@ -45,22 +43,54 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="border-l-4 border-[#FF2670] pl-4">
                     <div className="mb-4 rounded-lg overflow-hidden">
-                      <img
+                      <Image
                         src="/Polkadot-BKK.png"
                         alt="Bangkok Meetup Banner"
                         className="w-full h-auto object-cover"
+                        width={200}
+                        height={100}
                       />
                     </div>
                     <h3 className="font-semibold text-lg">Bangkok Meetup</h3>
                     <p className="text-black mb-2">
                       February 21st, 2025 at 5:00 PM
                     </p>
+                    <div className="flex items-center space-x-2 text-gray-600 mb-4">
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                      <a
+                        href="https://maps.app.goo.gl/XkEkJvqVpQtuDGow9"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-[#FF2670] transition-colors"
+                      >
+                        The Printing House Poshtel Bangkok
+                      </a>
+                    </div>
                     <p className="text-gray-600 mb-4">
                       Join us for beers and pizza! Network with fellow Polkadot
                       enthusiasts in a casual atmosphere.
                     </p>
                     <a
-                      href="#register"
+                      href="https://lu.ma/c547nme0"
                       className="inline-block bg-[#FF2670] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#FF2670]/90 transition-colors shadow-md"
                     >
                       Register for Event
@@ -78,10 +108,11 @@ export default function Home() {
                 <h2 className="text-2xl font-semibold text-[#FF2670] mb-4">
                   Get Involved
                 </h2>
+
                 <p className="text-black mb-4">
-                  Whether you're a developer, creator, or enthusiast, there's a
-                  place for you in the Polkadot DAO. Join us in building the
-                  future of Web3.
+                  Whether you&apos;re a developer, creator, or enthusiast,
+                  there&apos;s a place for you in the Polkadot DAO. Join us in
+                  building the future of Web3.
                 </p>
                 <div className="space-y-4">
                   {/* Discord Link */}
